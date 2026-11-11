@@ -27,6 +27,20 @@
                         {{ auth()->user()->created_at->format('F d, Y') }}
                     </p>
 
+                    <div class="mt-4">
+                        <p class="mb-2">
+                            <strong>Course:</strong> BSIT
+                        </p>
+
+                        <p class="mb-2">
+                            <strong>Year Level:</strong> 3rd Year
+                        </p>
+
+                        <p class="mb-2">
+                            <strong>Section:</strong> PS-309
+                        </p>
+                    </div>
+
                     <div class="mt-6">
                         <a
                             href="{{ route('student.resources') }}"
